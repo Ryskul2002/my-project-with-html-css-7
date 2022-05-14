@@ -1,0 +1,105 @@
+.promise{
+  padding-bottom: 201px;
+  &__title{
+    font-family: Liberation Serif sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 24px;
+  }
+  &__subtitle{
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 82px;
+  }
+  &__card{
+    &_best{
+      position: relative;
+    &::before{
+      position: absolute;
+      content: 'best seller';
+      font-family: Roboto sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      background-color: black;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      word-spacing: 20px;
+      right: 19px;
+      top: 23px;
+    }
+    }
+    &-title{
+      font-family: Liberation Serif sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 44px;
+      color: #000000;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    &-subtitle{
+      font-family: Roboto sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 28px;
+      color: #000000;
+      margin-bottom: 27px;
+      text-align: center;
+    }
+    &-btn{
+      font-family: Roboto sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      width: 180px;
+      height: 52px;
+      background-color: #191919;
+      border: 1px solid #191919;
+      box-sizing: border-box;
+      border-radius: 0;
+      cursor: pointer;
+    }
+  }
+  &__info{
+    display: flex;
+    column-gap: 55px;
+    text-align: center;
+    position: relative;
+    &::before{
+      position: absolute;
+      content: '';
+      width: 1320px;
+      height: 1px;
+      background: #BDBDBD;
+      top:800px
+    }
+  }
+}

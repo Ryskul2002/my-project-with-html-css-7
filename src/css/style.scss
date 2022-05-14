@@ -1,0 +1,33 @@
+@import "../fonts/Roboto/stylesheet.css";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1320px;
+  width: 100%;
+  padding: 0 15px;
+}
+@import "header";
+@import "second";
+@import "apple";
+@import "promise";
+@import "more";
+@import "node";
+@import "cinema";
+@import "project";
+@import "mood";
+@import "footer";
+.shipping{
+  background: #191919;
+  font-family: Roboto sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 16px 16px;
+}

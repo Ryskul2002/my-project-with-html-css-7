@@ -1,0 +1,23 @@
+.node{
+  &__card{
+    display: flex;
+  }
+  &__title{
+    font-family: Liberation Serif sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 19px;
+  }
+  &__subtitle{
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 21px;
+  }
+}

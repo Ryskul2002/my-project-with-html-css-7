@@ -1,0 +1,34 @@
+.more{
+  &__info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 59px;
+  }
+  &__title{
+    font-family: Liberation Serif sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 53px;
+    line-height: 80px;
+    color: #000000
+  }
+  &__subtitle{
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    position: relative;
+    margin-bottom: 155px;
+    &::before{
+      position: absolute;
+      content: '';
+      width: 1320px;
+      height: 1px;
+      background: #BDBDBD;
+      top: 180px;
+      right: 0;
+    }
+  }
+}
